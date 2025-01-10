@@ -128,7 +128,7 @@ body{
 }
 .satelite-container{
     display: flex;
-    gap: 32px;
+    justify-content: space-around;
     background-color:#FFFFFF ;
     padding: 48px;
     border-radius:24px ;
@@ -148,3 +148,86 @@ body{
 }
 .btn-satelite:hover{
     background-color: rgb(17, 231, 17);
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+}
+.donate-text{
+    text-align: center;
+}
+/* Donate - section */
+.donate{
+    margin-top: 80px;
+}
+.taka-card{
+    display: flex;
+    gap:24px;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+.taka{
+    background-color:#FFFFFF ;
+    padding:40px ;
+    width: 240px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.taka-200{
+    background-color:#C6E4D6 ;
+}
+
+.input{
+    font-family: 30px;
+    color:#747474 ;
+    background-color: #FFFFFF;
+    padding: 20px 422px;
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+.input-div{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn-donate{
+    text-align: center;
+}
+
+/* footer styles */
+.subscribe{
+    background-color:#C6E4D6 ;
+    padding:80px 256px;
+    margin-top:80px ;
+    border-radius: 24px;
+}
+.footer-first-div{
+    text-align: center;
+}
+.input-2{
+   border-radius: 4px;
+   padding: 18px 403px 18px ;
+   border: none;
+}
+.sub{
+    padding: 18px;
+    border-radius: 4px;
+}
+.input-container{
+    display: flex;
+}
+.last-heading{
+    text-align: center;
+}
+.horigantel{
+    width: 90%;
+}
+.image-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+    
+}
