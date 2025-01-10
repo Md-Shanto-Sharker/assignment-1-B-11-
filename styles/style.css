@@ -16,7 +16,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding:117px 60px ;
-    border-radius: 24px;
+    border-radius: 24px ;
+    margin-bottom: 80px;
 }
 
 .header-div{
@@ -40,6 +41,11 @@ body{
     color:#FFFFFF ;
     font-size: 18px;
     font-weight:600 ;
+    cursor: pointer;
+    
+}
+.btn-primary:hover{
+    background-color: rgb(224, 101, 19);
 }
 
 /* main section styles */
@@ -62,6 +68,8 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 70px;
+    margin-bottom: 80px;
+    margin-top: 32px;
 }
 .card-heading{
     font-weight: bold;
@@ -86,6 +94,16 @@ body{
 .btn-1{
     background-color: #5490F5;
 }
+
+.btn-1:hover{
+    background-color: rgb(255, 0, 0);
+}
+.btn-2:hover{
+    background-color: rgb(233, 230, 50);
+}
+.btn-3:hover{
+    background-color: rgb(17, 231, 17);
+}
 .btn-2{
     background-color: #09A15C;
 }
@@ -108,3 +126,25 @@ body{
 .card-3{
     background-color:#F7EBCF ;
 }
+.satelite-container{
+    display: flex;
+    gap: 32px;
+    background-color:#FFFFFF ;
+    padding: 48px;
+    border-radius:24px ;
+    margin-bottom: 24px;
+}
+.satelite{
+    width: 408px;
+    border-radius: 24px;
+}
+.satelite-heading{
+    font-size: 32px;
+    font-weight: bold;
+    color:#0E0E0E ;
+}
+.btn-satelite{
+    background-color:#006A50;
+}
+.btn-satelite:hover{
+    background-color: rgb(17, 231, 17);
