@@ -179,6 +179,10 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    cursor: pointer;
+}
+.taka:hover{
+    background-color: greenyellow;
 }
 .taka-200{
     background-color:#C6E4D6 ;
@@ -207,14 +211,19 @@ body{
     padding:80px 256px;
     margin-top:80px ;
     border-radius: 24px;
+    text-align: center;
 }
 .footer-first-div{
     text-align: center;
 }
 .input-2{
    border-radius: 4px;
-   padding: 18px 403px 18px ;
+   padding: 18px 520px 18px 10px ;
    border: none;
+}
+
+::placeholder{
+    color: #747474;
 }
 .sub{
     padding: 18px;
@@ -222,6 +231,7 @@ body{
 }
 .input-container{
     display: flex;
+    justify-content: center;
 }
 .last-heading{
     text-align: center;
