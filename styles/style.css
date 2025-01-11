@@ -10,6 +10,11 @@ body{
     background-color: #F5F5F5;
 }
 
+/* .margin-all{
+    margin: 160px;
+    background-color: #F5F5F5;
+} */
+
 /* styles header section */
 .header-container{
     background-color:#C6E4D6 ;
@@ -231,3 +236,27 @@ body{
     gap: 28px;
     
 }
+/* challenge part styles */
+.dr-yunus{
+    background-color: white;
+    padding: 40px 24px;
+    border-radius: 16px;
+    border: none;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    /* background-position:left 35px  ; */
+    background-position-x:25px;
+    background-position-y: 38px;
+}
+.younus-heading{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+/* .dr-para{
+     background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+     background-position:left top ;
+     background-size: 120px; 
+} */
